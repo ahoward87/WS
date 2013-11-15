@@ -105,7 +105,7 @@ img{ max-width:100%; height:auto;}
 }
 .srt-menu li a {
 	color:#666;
-	background:#696555;
+	background:#fff;
 	display:block;
 	margin:1px 0; 
 	padding:10px;
@@ -322,7 +322,7 @@ ul.srt-menu li li li.sfHover ul {
 	top:			0;
 }
 
-/*** DEMO2 SKIN ***/
+
 #topnav, .srt-menu {
 	float:right;
 	margin: .35em 0 0 0;
