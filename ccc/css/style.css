@@ -6,6 +6,7 @@ body{
 	font-size:1em;
 	line-height:1.4em; 
 	font-weight:normal;
+	margin:0px auto;
 }
 h1, h2, h3, h4, h5, h6{
 	font-weight:400;
@@ -25,9 +26,10 @@ a:hover{ text-decoration:none;}
 *{box-sizing:border-box;}
 
 .wrapper{
-	width: 92%; 
+	width: 65%; 
 	margin: 0 auto;
 }
+
 header{ 
 	padding:15px 0;
 }
@@ -52,12 +54,30 @@ header{
 aside,
 .vertical-padding{  
 	padding:40px 0;
+	margin:0px auto;
 }
 p{ margin:0 0 1.5em;}
 
 
 img{ max-width:100%; height:auto;}
 
+#content {  
+	float:left;
+	width:100%;
+}
+
+#btn{
+	float: right;
+	width: 50%;
+	display: inline-block;
+	}
+	
+	#btn2{
+		float: left;
+		width: 40%;
+		display: inline-block;
+		text-align: center;
+		}
 
 /*MAIN MENU*/
 .menu-toggle{
@@ -159,14 +179,12 @@ footer ul{
 }
 
 .greenelement{
-	text-align: center;
+	text-align: left;
 	background:#7DC4B3;
 	color:#fff;
+
 }
-.violetelement{
-	background:#E4592B;
-	color:#fff;
-}
+
 
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
@@ -220,8 +238,20 @@ header{
 
 #content {  
 	float:left;
-	width:65%;
+	width:100%;
 }
+
+#btn{
+	float: right;
+	width: 50%;
+	display: inline-block;
+	}
+	
+	#btn2{
+		float: left;
+		width: 40%;
+		display: inline-block;
+		}
 #content.wide-content{
 	float:none;
 	width:100%;
